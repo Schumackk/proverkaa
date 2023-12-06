@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    }
+    *,
+    *:before,
+    *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    :focus,
+    :active {
+    outline: none;
+    }
+    a:focus,
+    a:active {
+    outline: none;
+    }
+    nav,
+    footer,
+    header,
+    aside {
+    display: block;
+    }
+    html,
+    body {
+    height: 100vh;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+    input,
+    button,
+    textarea {
+    font-family: inherit;
+    }
+    input::-ms-clear {
+    display: none;
+    }
+    button {
+    cursor: pointer;
+    }
+    button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+    }
+    a,
+    a:visited {
+    text-decoration: none;
+    }
+    a:hover {
+    text-decoration: none;
+    }
+    ul li {
+    list-style: none;
+    }
+    img {
+    vertical-align: top;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+    font-size: inherit;
+    font-weight: 400;
+    }
+
+    @font-face {
+  font-family: 'Dela';
+  src: url("fonts/DelaGothicOne-Regular.ttf");
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url("fonts/Inter-Regular.otf");
+    }
+    @font-face {
+        font-family: 'Comfortaa';
+        src: url("fonts/Comfortaa.ttf");
+        }
+
+
+        .footer{
+            height: 100px;
+            background: #09595E;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .footer_part1, .footer_part2{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+        .footer_part1, .footer_part2{
+            gap: 13px;
+        }
+        .contacts{
+            font-family: 'Comfortaa';
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 17px;
+            text-align: left;
+            color: white;
+        }
+        .post a{
+            font-family: 'Comfortaa';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 10px;
+            margin-left: -23px;
+        }
+        .post p {
+            font-family: 'Comfortaa';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 10px;
+            color: white;
+            margin-left: -23px;
+        }
+        .contacts1, .contacts2{
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+        .gmail {
+            text-align: left;
+        }
+        .gmail img{
+            width: 50%;
+        }
+        .smile img{
+            width: 51%;
+        }
+
+        .conteiner {
+            background-image: url('images/фон_полный.png');      
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .conteiner1{
+            width: 100%;
+            background-color: rgb(255, 255, 255, 0.84);
+        }
+        .main {
+            display: flex;
+        
+        }
+        .main button {
+            border: 3px solid black;
+            background-color: rgb(255, 255, 255, 0.9);
+            border-radius: 28px;
+            padding: 11px 20px;
+            font-family: 'Inter';
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .button_main:hover{
+            background-color: #09595E;
+            border-color: white;
+            color: white;
+        }
+.main_text1 p{
+    font-family: 'Dela';    
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    }
+.main_text2{    
+    font-family: 'Dela';
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 95px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #09595E;
+}
+.main_text3 {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.forma form {
+    background: #09595E66;
+    border-radius: 40px;
+    width: 35%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.forma form p {
+    font-family: 'Comfortaa';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 14px;
+    color: white;
+    text-align: center;
+}
+label {
+    width: 45%;
+    height: 50px;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+input::placeholder {
+    font-size: 17px;
+  }
+label img {
+    width: 10%;
+    margin-left: 10px;
+}
+.forma form button {
+    background-color: #09595E;
+    border-radius: 40px;
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    padding: 20px 17px;
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+
+
+.conteiner2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.rule {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.rule_1 {
+    font-family: 'Dela';    
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.rule_2{
+    font-family: 'Dela';
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #09595E;
+}
+.rule_3 {
+    font-family: 'Dela';
+    font-size: 24px;
+    line-height: 30px;
+    color: #9D9D9D;
+}
+.rule_4{
+    align-items: center;
+    width: 60%;
+    background-color: rgb(9, 89, 94, 0.6);
+    border-radius: 40px;
+    text-align: center;
+}
+.rule_4 p {
+    font-family: 'Dela';
+    font-size: 31px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.rule_4 ol {
+    font-family: 'Dela';
+    font-size: 21px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left:50px;
+}
+
+.fortune {
+    width: 50%;
+}
